@@ -1,27 +1,44 @@
-# 🦉Ne0
+<img width="590" height="278" alt="Screenshot 2026-05-15 172141" src="https://github.com/user-attachments/assets/319ad6ce-1fa8-409a-82c4-a2727e7570f1" />
 
-![Python](https://img.shields.io/badge/python-3.10+-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Type](https://img.shields.io/badge/Recon-Attack%20Surface-red)
 
-A lightweight Python tool for **mapping basic web attack surfaces**.  
-Designed for security enthusiasts, pentesters, and developers to **discover subdomains, HTTP headers, open ports, and TLS info** in a safe and modular way.
-
----
-
-## Features
-
-- Discover common subdomains
-- Scan HTTP headers
-- Optional port scanning (common TCP ports)
-- TLS/SSL certificate information
-- Modular, easy-to-extend architecture
-- JSON report generation for automated workflows
+> Lightweight external attack surface intelligence tool for security researchers.
 
 ---
 
-## Requirements
+## OVERVIEW
 
-- Python 3.10 or higher  
-- Dependencies:
-  ```bash
-  pip install -r requirements.txt
+Ne0 is a modular reconnaissance framework that automates domain intelligence gathering such as subdomains, DNS records, WHOIS, ports, technologies, and security headers.
+
+Built for speed, structure, and clarity.
+
+---
+
+## FEATURES
+
+- Subdomain enumeration  
+- DNS intelligence  
+- WHOIS lookup  
+- Port scanning  
+- Technology fingerprinting  
+- WAF detection  
+- Email security checks  
+- HTTP header analysis  
+- JSON / HTML reporting  
+- Multi-threaded scanning  
+
+---
+
+## INSTALL
+
+```bash
+git clone https://github.com/pokhrl/Ne0.git
+cd Ne0
+pip install -r requirements.txt
+
+python main.py example.com
+python main.py example.com --all
+python main.py example.com --all --output html

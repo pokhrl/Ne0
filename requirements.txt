@@ -1,0 +1,7 @@
+﻿requests
+dnspython
+beautifulsoup4
+python-whois
+aiohttp
+rich
+ 

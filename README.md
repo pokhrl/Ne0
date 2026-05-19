@@ -3,8 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A lightweight Python tool for **mapping basic web attack surfaces**.  
-Designed for security enthusiasts, pentesters, and developers to **discover subdomains, HTTP headers, open ports, and TLS info** in a safe and modular way.
+Ne0 is an automated external attack surface discovery and reconnaissance framework written in Python. It helps identify publicly exposed assets, subdomains, services, technologies, and potential entry points during offensive security assessments..  
 
 ---
 
